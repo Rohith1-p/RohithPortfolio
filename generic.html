@@ -11,6 +11,50 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+				background-color: #f9f9f9;
+				margin: 0;
+				padding: 20px;
+			}
+			.article-container {
+				max-width: 1100px;
+				margin: auto;
+			}
+			.article {
+				display: flex;
+				justify-content: space-between;
+				background: white;
+				padding: 15px;
+				margin-bottom: 20px;
+				border-radius: 10px;
+				box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+			}
+			.article-content {
+				flex: 1;
+			}
+			.article img {
+				width: 300px;
+				height: 150px;
+				border-radius: 5px;
+				object-fit: cover;
+			}
+			.meta {
+				font-size: 14px;
+				color: gray;
+				margin: 5px 0;
+			}
+			.title {
+				font-size: 18px;
+				font-weight: bold;
+				color: black;
+			}
+			.desc {
+				font-size: 14px;
+				color: #555;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -38,24 +82,30 @@
 					</nav>
 
 				<!-- Main -->
+					<!-- Main -->
 					<div id="main">
-
-						<!-- Post -->
-							<section class="post">
-								<header class="major">
-									<span class="date">April 25, 2017</span>
-									<h1>This is a<br />
-									Generic Page</h1>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
-								</header>
-								<div class="image main"><img src="images/pic01.jpg" alt="" /></div>
-								<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sapien risus, commodo eget turpis at, elementum convallis enim turpis, lorem ipsum dolor sit amet nullam.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus. Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum.</p>
-							</section>
-
+						<div class="article-container">
+							<div class="article">
+								<div class="article-content">
+									<div class="meta">Medium Blog - Mar 20, 2025</div>
+									<div class="title">How to Build a Machine Learning/Data Science Portfolio That Gets You Hired!</div>
+									<div class="desc">No more boring projects.</div>
+									<!-- <div class="meta">⭐ Mar 20 • 215 👀 • 3 💬</div> -->
+								</div>
+								<img src="images/llms.png" alt="Article Image">
+							</div>
+							<div class="article">
+								<div class="article-content">
+									<div class="meta">Medium Blog - </div>
+									<div class="title">Data Science All Algorithm Cheatsheet 2025</div>
+									<div class="desc">Stories, strategies, and secrets to choosing the perfect algorithm.</div>
+									<!-- <div class="meta">⭐ Jan 5 • 1.5K 👀 • 34 💬</div> -->
+								</div>
+								<img src="https://via.placeholder.com/120x80" alt="Article Image">
+							</div>
+						</div>
 					</div>
+
 
 				<!-- Footer -->
 					<footer id="footer">
